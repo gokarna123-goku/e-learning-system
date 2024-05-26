@@ -67,6 +67,9 @@ const Hero = () => {
                 </div>
             </div>
 
+            {/* Pickup line website links */}
+            {/* https://www.theknot.com/content/pick-up-lines */}
+
         </div >
     )
 }
