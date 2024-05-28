@@ -7,6 +7,7 @@ import About from './pages/about/About';
 import Courses from './pages/courses/Courses';
 import Resources from './pages/resources/Resources';
 import Banner from './pages/banner/Banner';
+import Review from './pages/review/Review';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Courses />
           <Resources />
           <Banner />
+          <Review />
           {/* <Footer /> */}
         </div>
       </Router>
