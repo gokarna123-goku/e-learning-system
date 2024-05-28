@@ -6,6 +6,7 @@ import Footer from './components/footer/Footer';
 import About from './pages/about/About';
 import Courses from './pages/courses/Courses';
 import Resources from './pages/resources/Resources';
+import Banner from './pages/banner/Banner';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <About />
           <Courses />
           <Resources />
+          <Banner />
           {/* <Footer /> */}
         </div>
       </Router>
