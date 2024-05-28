@@ -8,7 +8,7 @@ const Instructor = () => {
                 Meet Our Instructors
             </h1>
             {/* Instructor Card */}
-            <div className="w-full grid md:grid-cols-5 sm:grid-cols-3 grid-cols-1 gap-4">
+            <div className="w-full grid md:grid-cols-5 sm:grid-cols-3 grid-cols-2 gap-4">
                 <InstructorCard imgUrl={"https://cdn.pixabay.com/photo/2019/07/26/12/49/learn-4364729_1280.jpg"} fullname={"David Johnson"} position={"Instructor"} />
                 <InstructorCard imgUrl={"https://cdn.pixabay.com/photo/2018/09/15/16/56/teacher-3679814_1280.jpg"} fullname={"David Johnson"} position={"Instructor"} />
                 <InstructorCard imgUrl={"https://cdn.pixabay.com/photo/2024/04/01/20/17/teacher-8669711_1280.png"} fullname={"David Johnson"} position={"Instructor"} />

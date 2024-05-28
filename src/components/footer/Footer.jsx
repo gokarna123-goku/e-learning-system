@@ -15,6 +15,7 @@ const Footer = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis saepe eum adipisci omnis, officiis perspiciatis sequi iusto obcaecati incidunt magni qui neque laboriosam assumenda aliquam.
           </p>
         </div>
+
         <div className="w-full col-span-2">
           <h2 className="title-font font-medium text-neutral-900 text-lg mb-3">Popular Courses</h2>
           <nav className="list-none">
@@ -78,9 +79,8 @@ const Footer = () => {
         </div>
       </div>
 
-
-      <div className="w-full flex items-center justify-between border-t border-neutral-400/50 pt-5">
-        <p className="text-neutral-500 text-sm text-center sm:text-left">
+      <div className="w-full flex items-center md:justify-between justify-center gap-y-5 border-t border-neutral-400/50 pt-5 flex-wrap">
+        <p className="text-neutral-500 text-sm text-center">
           © 2024 G-LMS. All Rights Reserved —
           <Link to="https://youtube.com/@g-techofficial" className="text-violet-600 ml-1" target="_blank" rel="noopener noreferrer">@g-techofficial</Link>
         </p>
