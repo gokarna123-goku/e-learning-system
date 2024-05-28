@@ -1,6 +1,6 @@
 import React from 'react'
 import AboutImg from "../../assets/about.png"
-import { FaBook, FaExplosion, FaTeamspeak } from 'react-icons/fa6'
+import { FaArrowRightLong, FaBook, FaExplosion, FaTeamspeak } from 'react-icons/fa6'
 
 const About = () => {
     return (
@@ -19,7 +19,7 @@ const About = () => {
                 <p className="text-base text-neutral-500 font-semibold mb-3">
                     Why Us?
                 </p>
-                <div className="w-full grid grid-cols-4 gap-7 mb-6">
+                <div className="w-full grid grid-cols-4 gap-7 mb-8">
                     <div className="w-full h-auto flex flex-col items-center justify-center gap-4 bg-neutral-200/60 rounded-md px-3 py-5">
                         <div className="w-16 h-16 rounded-full bg-zinc-950/10 flex items-center justify-center text-3xl">
                             <FaBook />
@@ -46,7 +46,9 @@ const About = () => {
                     </div>
                 </div>
                 {/* Button section */}
-                <button className="bg-violet-600 text-neutral-50 px-4 py-2 rounded-md">Learn More</button>
+                <button className="bg-violet-600 hover:bg-transparent text-neutral-50 hover:text-violet-600 border border-violet-600 px-5 py-2 rounded-md ease-in-out duration-300 flex items-center gap-x-2">
+                    Learn More <FaArrowRightLong className='text-sm' />
+                </button>
             </div>
         </div>
     )

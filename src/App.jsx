@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar';
 import Hero from './pages/hero/Hero';
 import Footer from './components/footer/Footer';
 import About from './pages/about/About';
+import Courses from './pages/courses/Courses';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <Navbar />
           <Hero />
           <About />
+          <Courses />
           {/* <Footer /> */}
         </div>
       </Router>

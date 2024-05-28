@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <nav className='w-full h-[8ch] bg-neutral-100 flex items-center lg:px-28 md:px-16 sm:px-7 px-4 fixed top-0'>
+        <nav className='w-full h-[8ch] bg-neutral-100 flex items-center lg:px-28 md:px-16 sm:px-7 px-4 fixed top-0 z-50'>
             {/* Logo Section */}
             <Link to="/" className='text-xl text-neutral-800 font-bold mr-16'>
                 <span className="text-violet-600">G</span>-LMS
