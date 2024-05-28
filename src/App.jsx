@@ -8,6 +8,7 @@ import Courses from './pages/courses/Courses';
 import Resources from './pages/resources/Resources';
 import Banner from './pages/banner/Banner';
 import Review from './pages/review/Review';
+import Instructor from './pages/instructor/Instructor';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Resources />
           <Banner />
           <Review />
+          <Instructor />
           {/* <Footer /> */}
         </div>
       </Router>
