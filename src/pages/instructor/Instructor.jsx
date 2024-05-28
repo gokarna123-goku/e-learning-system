@@ -3,7 +3,7 @@ import InstructorCard from '../../components/instructorcard/InstructorCard'
 
 const Instructor = () => {
     return (
-        <div className='w-full h-auto lg:px-28 md:px-16 sm:px-7 px-4 pb-8'>
+        <div className='w-full h-auto lg:px-28 md:px-16 sm:px-7 px-4 pb-8 mt-[2ch]'>
             <h1 className='text-center text-3xl font-bold text-violet-600 mb-8'>
                 Meet Our Instructors
             </h1>

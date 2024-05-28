@@ -27,9 +27,9 @@ const Navbar = () => {
                     <li>
                         <Link to="/instructors" className='hover:text-violet-600 ease-in-out duration-300'>Instructors</Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link to="/contact" className='hover:text-violet-600 ease-in-out duration-300'>Contact</Link>
-                    </li>
+                    </li> */}
                 </ul>
                 {/* Button */}
                 <button className="bg-violet-600 px-4 py-2 rounded-full border border-violet-600 text-sm text-neutral-50 font-medium hover:bg-violet-600/5 hover:text-violet-600 ease-in-out duration-300">

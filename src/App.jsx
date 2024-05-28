@@ -24,7 +24,7 @@ function App() {
           <Banner />
           <Review />
           <Instructor />
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </Router>
     </>
