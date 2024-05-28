@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaCircle, FaGraduationCap } from 'react-icons/fa6'
+import { FaArrowRightLong, FaCircle, FaGraduationCap } from 'react-icons/fa6'
 
 const Hero = () => {
     return (
@@ -25,8 +25,8 @@ const Hero = () => {
                             Explore Courses
                         </button>
 
-                        <button className='bg-transparent border-2 border-violet-600 text-neutral-50 px-4 py-2 rounded-md'>
-                            Contact Us
+                        <button className='bg-transparent border-2 border-violet-600 text-neutral-50 px-4 py-2 rounded-md flex items-center gap-x-2'>
+                            Apply Now <FaArrowRightLong className='text-sm' />
                         </button>
                     </div>
 
