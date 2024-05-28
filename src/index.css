@@ -13,8 +13,26 @@
   font-family: "Inter", sans-serif;
 }
 
-::-webkit-scrollbar{
-  display: none;
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  background: #f9fafb;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3f4f6;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cacaca;
+  border-radius: 8px;
+  transition: all 0.5s ease-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a4a4a4;
+  border-radius: 8px;
 }
 
 
